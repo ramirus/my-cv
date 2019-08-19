@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from './index.module.css'
+import styles from './index.module.scss'
 
 const CvTemplate = () => {
   return (
-    <div>
-      
+    <div className={styles.body}>
+      <h1 className={styles.name}>Great teacher onizuka</h1>
     </div>
   )
 }
